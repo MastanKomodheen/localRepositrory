@@ -1,0 +1,617 @@
+//uat enviraonment
+
+./env-manager daily-pipeline --env=uat --instance=111 --aws-profile=uat --backend-build-root=a62e7554-e089-4a89-bd6b-60176f7bde19  --frontend-build-root=devops-full-fe-mono-repo:995705f1-3d55-4d88-b024-af167164e595-2023-03-30_12:32:14  --mail-list='siddeshwar.mali@krazybee.com,monisha.nethaji@krazybee.com'  --api-test-branch= --ui-test-branch=fe-pom-Modules  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=12
+
+
+
+//kbuatman218
+./env-manager daily-pipeline --env=kbuatman2   --aws-profile=man2 --backend-build-root=e2f42b0c-6434-42b5-998f-cc9a91787e83 --frontend-build-root=devops-full-fe-mono-repo-v2:c12f6788-3763-43ba-b3e2-01bd6c542341-2024-01-22_07:32:04 --mail-list='komodheen.mastan@krazybee.com'  --api-test-branch= --ui-test-branch=fe-pom-module-cy  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=11
+
+// describe.only("Profile creation flow",()=>{
+//    it.only('test case ID', () => {
+//     cy.visit('https://kbuatauto24app.kreditbee.dev/login',{failOnStatusCode: false})
+//     cy.get('[data-cy="app.components.MobileSignin.login_message"]').should("have.text","Login/Signup with Mobile")
+//     cy.get('[class="typography-content sc-VigVT fBdrQm"]').should('have.text',"Welcome to KreditBee")
+//     cy.get('[data-cy="app.components.MobileSignin.login_message"]').click()
+//     cy.get('[data-cy="HeaderComponent_undefined"]').should('have.text',"Login / Signup")
+//     cy.get('[data-cy="input_app.components.MobileSignin.mob_digit"]').type(6302886939)
+//    });
+// })
+
+UPDATE `yp`.`yp_loanDoc_product_version_map` SET `loanDocVariant` = '2', `loanDocMajorVariant` = '2', `loanDocMinorVariant` = '1' WHERE (`id` = '1602');
+docCollectFees
+select agreementFee from yp_band_properties where
+cy.returnValue(`select agreementFees from yp_loan order by id desc limit 1`).then((docFee) => {
+
+
+install node update
+sudo npm install -g n
+sudo n stable
+
+//Updated Vs code Command
+sudo apt-get update
+sudo apt-get install code 
+
+
+
+sudo mv /home/Downloads/chromedriver /usr/bin
+
+mastan@FIN-IT-LT-034:~$ chromedriver --version
+ChromeDriver 123.0.6312.105 (399174dbe6eff0f59de9a6096129c0c827002b3a-refs/branch-heads/6312@{#761})
+mastan@FIN-IT-LT-034:~$ which chromedriver
+/usr/bin/chromedriver
+mastan@FIN-IT-LT-034:~$ 
+
+
+
+    "cypress:run:IOS-Insurance": "cypress run  --headless  --browser electron  --spec 'cypress/integration/sanity-tests/Insurance/**/*'",
+
+
+/home/ubuntu/KB-FE-BANK-MYACCOUNT/cypress/screenshots/sanity-tests/Account-Bank/01Login/checking.spec.js/
+
+
+aws s3 cp ???  s3://tembucketenvtool/ --recursive
+https://s3.console.aws.amazon.com/s3/buckets/tembucketenvtool?region=ap-south-1&tab=objects
+
+ https://s3.console.aws.amazon.com/s3/buckets/tembucketenvtool?region=ap-south-1&prefix=testBucket/&showversions=false
+
+./env-manager daily-pipeline --env=kbuatauto --instance=28  --aws-profile=default --backend-build-root=e17049c7-438f-4f22-80ae-b0113da6027a  --frontend-build-root=devops-full-fe-mono-repo-v2:bac10a6d-6d46-46c2-bdbf-b3943c16095b-2023-12-27_07:34:26--mail-list='abhinandan.huddar@krazybee.com,siddeshwar.mali@krazybee.com,komodheen.mastan@krazybee.com' --api-test-branch= --ui-test-branch=fe-pom-module-cy --no-dbclone  --codebuild-aws-account=stage --just-test --api-test=false --force --test-id=5
+
+
+./env-manager daily-pipeline --env=kbuatauto --instance=28 --backend-build-root=e17049c7-438f-4f22-80ae-b0113da6027a  --frontend-build-root=devops-full-fe-mono-repo-v2:bac10a6d-6d46-46c2-bdbf-b3943c16095b-2023-12-27_07:34:26   --mail-list="abhinandan.huddar@krazybee.com,komodheen.mastan@krazybee.com,monisha.nethaji@krazybee.com"  --api-test-branch= --ui-test-branch=  --no-dbclone  --codebuild-aws-account=stage --force --just-test --test-id=5,6,7,8,9,10,11,12,13
+
+  "sancDocUrls": "{\"1\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/SANCf2073c65-0962-07ee-dcb5-b183fabb4c68.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=1\u0026s=9a80a137625858cbf7b985b052ec618c\",\"10\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/SANCf2073c65-0962-07ee-dcb5-b183fabb4c68.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=10\u0026s=b197cfa2396481a1457101056e8e92c7\",\"2\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/SANCf2073c65-0962-07ee-dcb5-b183fabb4c68.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=2\u0026s=db03e8e0b8376e95eb654bb6617b4442\",\"3\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/SANCf2073c65-0962-07ee-dcb5-b183fabb4c68.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=3\u0026s=20cbf51e1fc89cce32dbfe38279775ad\",\"4\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/SANCf2073c65-0962-07ee-dcb5-b183fabb4c68.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=4\u0026s=9b3e73ccdb25c588986b13d18b4760b2\",\"5\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/SANCf2073c65-0962-07ee-dcb5-b183fabb4c68.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=5\u0026s=ca927338eac05c6c149a9fd2cd1b0fb0\",\"6\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/SANCf2073c65-0962-07ee-dcb5-b183fabb4c68.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=6\u0026s=3ac2f0ae5c3345e19333a403ab8155d3\",\"7\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/SANCf2073c65-0962-07ee-dcb5-b183fabb4c68.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=7\u0026s=7400b7f8802a71b98a2f0ad3be573996\",\"8\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/SANCf2073c65-0962-07ee-dcb5-b183fabb4c68.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=8\u0026s=591ab32061504077063dd5797fc6fc2e\",\"9\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/SANCf2073c65-0962-07ee-dcb5-b183fabb4c68.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=9\u0026s=385309a441eeb053d63b4f096dc0c2be\"}",
+  "signedPdfUrls": "{\"1\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=1\u0026s=0bdf3d62628e2720d396323e2f67afd0\",\"10\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=10\u0026s=2935d1dca05d45f23580adfd4567f79e\",\"11\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=11\u0026s=80d895b862c05a1bd394d7db7c08d9ed\",\"12\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=12\u0026s=eed4df0d636f4e79c4c56c6e0a3d3247\",\"13\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=13\u0026s=db8203883bf55c28198412ba44fdb255\",\"14\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=14\u0026s=4ed7664251f88d70e73dccd9a7a0f906\",\"15\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=15\u0026s=f944814d028bdf42534ac48ac1a00c0a\",\"16\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=16\u0026s=c3524c6ba97b51b57499d26aa6746334\",\"17\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=17\u0026s=2d52a05801737faff556deac077ef243\",\"18\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=18\u0026s=41463c8426ba75970a5ae660c1372849\",\"19\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=19\u0026s=d6eab4e4204fc4eae53d6735bca22e9c\",\"2\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=2\u0026s=6194dd76aad800a121f60452a0bbe708\",\"20\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=20\u0026s=a316a88a473bb80a8a906f08065d30e8\",\"21\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=21\u0026s=85e57308ad0a015b87a67d125570bc5c\",\"22\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=22\u0026s=87063bdb1b1d9fd1e29b073565c4ec42\",\"23\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=23\u0026s=a01489e4478ce7a4d1e3c76669e512c4\",\"24\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=24\u0026s=0a67e7767379d655b7e081f31bead74a\",\"25\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=25\u0026s=b6fa148d1d7ffe9a624c15107a29442d\",\"26\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=26\u0026s=e6ae02682e5f3695d108c1d29a8deaec\",\"27\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=27\u0026s=db5112f0295fa9078d4a1aed8dfc6c21\",\"28\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=28\u0026s=2ae1f5b21ed5a7964c07a1ff18d30400\",\"29\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=29\u0026s=88bb4e11677ca121818bc0eace0468e3\",\"3\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=3\u0026s=6b7b473e5228d11673183b69bc7d98ca\",\"30\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=30\u0026s=660bbcc0bededc6b67b37ee7c0a3403b\",\"31\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=31\u0026s=fb127f87bdeb1379a0ea41f675429462\",\"32\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=32\u0026s=de9e9196953417558e98e2cb57aef22c\",\"33\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=33\u0026s=19e3699a96692b805620f2be7e1df4e7\",\"34\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=34\u0026s=77be1ee84a914004201c4ce151bbeba8\",\"35\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=35\u0026s=d5feba7c648906692fb6f3ada9cbeef4\",\"36\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=36\u0026s=9dc43d4fdd856286e25a32aff9cca17b\",\"37\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=37\u0026s=93d4e00609e82be74e4c618e9a960d7c\",\"4\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=4\u0026s=51a564c172b5f43f48cbaace8495dca7\",\"5\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=5\u0026s=e487dce4936c5a45c9d02b3507c115e3\",\"6\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=6\u0026s=860ecef3886fbee849c29eb1c7155fd6\",\"7\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=7\u0026s=c0c91af2634e5435773ef579f848bde6\",\"8\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=8\u0026s=2dd3fff2d6c870aa4c86d4b766073eec\",\"9\":\"https://kimaginary.buynsta.com/path/RX3CVtBm3YhQ6myB8mBcmxSg90a2/docs/KBST240328UEU/KBDID20240328EXZkMqu2c5160558.pdf?expires=\u0026ixlib=go-v2.0.2\u0026page=9\u0026s=59ce72128e435ad23735a0639d678d40\"}",
+
+
+./env-manager daily-pipeline --env=kbuatauto --instance=14 --aws-profile=default --backend-build-root=bc989aca-55a4-406b-a28b-a17cb84ce984 --frontend-build-root=devops-full-fe-mono-repo-v2:51dce8c0-0269-4179-82d3-15693117c936-2024-06-14_07:05:13  --mail-list='komodheen.mastan@krazybee.com'  --api-test-branch= --ui-test-branch=KBN-14324-Two-wheeler-loans  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=11
+
+./env-manager daily-pipeline --env=kbuatauto --instance=25  --backend-build-root=ff662060-5ac0-4fab-9993-9d3492129941 --frontend-build-root=devops-full-fe-mono-repo-v2:3193d217-803f-4d2d-9ed1-10384446f2a8-2024-08-08_06:55:18  --mail-list="komodheen.mastan@krazybee.com"  --api-test-branch= --ui-test-branch=KBN-12513/IncomeVerificationNudge  --no-dbclone  --codebuild-aws-account=stage --force --just-test --test-id=36
+
+./env-manager daily-pipeline --env=kbuatauto --instance=23 --backend-build-root=dd45419c-d7a1-4673-9ad5-9fb9699f06d4  --frontend-build-root=devops-full-fe-mono-repo-v2:c374c7dd-958b-40e3-a2ff-a244068fea6a-2024-03-24_21:03:41 --mail-list="sandhya.haveli@krazybee.com,komodheen.mastan@krazybee.com"  --api-test-branch= --ui-test-branch=  --no-dbclone  --codebuild-aws-account=stage --force --just-test --test-id=11
+
+./env-manager daily-pipeline --env=kbuatauto  --instance=28 --backend-build-root=5c66f970-7a9e-443d-be58-b3f984892fe4  --frontend-build-root=devops-full-fe-mono-repo-v2:ae016a90-d4ed-4929-98c1-c4d247e13d17-2024-03-03_21:33:46  --mail-list='komodheen.mastan@krazybee.com' --api-test-branch= --ui-test-branch=FE_stage_loanFlowUIChanges-mastan  --no-dbclone  --codebuild-aws-account=stage --just-test --api-test=false --force --test-id=
+
+./env-manager daily-pipeline --env=kbuatauto  --instance=25  --backend-build-root=af35e29a-4b58-40eb-9aa6-61b0a9e2bbd9 --frontend-build-root=devops-full-fe-mono-repo-v2:80311a7e-c161-4c10-9aa4-79749c5fde01-2024-01-24_07:42:39 --mail-list='komodheen.mastan@krazybee.com' --api-test-branch= --ui-test-branch=fe-pom-module-cy --no-dbclone  --codebuild-aws-account=stage --just-test --api-test=false --force --test-id=5
+
+./env-manager daily-pipeline --env=kbuatauto  --instance=26 --backend-build-root=9047dcb7-a69a-471a-a97e-dfa140dc7f2c --frontend-build-root=devops-full-fe-mono-repo-v2:8614b628-bab1-46b2-88d1-e2c8fad51077-2024-01-19_07:50:13 --mail-list='komodheen.mastan@krazybee.com' --api-test-branch= --ui-test-branch=fe-pom-module-cy --no-dbclone  --codebuild-aws-account=stage --just-test --api-test=false --force --test-id=5
+
+./env-manager daily-pipeline --env=kbuatauto  --instance=28 --backend-build-root=4f0f8ef5-a576-40eb-9beb-d7471ef304ce --frontend-build-root=devops-full-fe-mono-repo-v2:a2d6b4cd-23a4-4e86-b7d1-29067d45b98c-2024-01-18_05:26:37 --mail-list='komodheen.mastan@krazybee.com' --api-test-branch= --ui-test-branch=fe-pom-module-cy --no-dbclone  --codebuild-aws-account=stage --just-test --api-test=false --force --test-id=5
+
+, { testIsolation: false }, () => {
+
+    it('Login and popuphandler', () => {
+        cy.Login()
+        cy.popuphandler()
+    })
+
+
+    //   it('Login and popuphandler with DB', () => {
+    //     cy.LoginWithDB()
+    //     cy.popuphandler()
+    //   })
+
+
+
+./env-manager daily-pipeline --env=kbuatauto --instance=22 --backend-build-root=1ef37567-fb76-42f2-bddf-3c56dac702d3  --frontend-build-root=devops-full-fe-mono-repo-v2:29c56afe-cc3d-44cf-b650-8889ee51d13f-2023-12-21_21:35:13  --mail-list="komodheen.mastan@krazybee.com"  --api-test-branch= --ui-test-branch=FE_stage_Business-Migration  --no-dbclone  --codebuild-aws-account=stage --force --just-test --test-id=5
+
+
+
+
+//kbuatato17
+./env-manager daily-pipeline --env=kbuatauto --instance=25 --aws-profile=uatauto --backend-build-root=241d3a0d-cef7-4f45-ae0a-1cf58f01d8ad  --frontend-build-root=devops-full-fe-mono-repo-v2:b2625933-f4af-42c0-bb6a-5db7710b474b-2023-10-12_13:42:19  --mail-list='siddeshwar.mali@krazybee.com,monisha.nethaji@krazybee.com'  --api-test-branch= --ui-test-branch=fe-pom-Modules  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=11
+
+//satisfied the automated test case exepected results
+
+
+./env-manager daily-pipeline --env=kbuatauto --instance=17 --aws-profile=uatauto --backend-build-root=36292678-e56f-42c7-8a51-1e777f340347  --frontend-build-root=devops-full-fe-mono-repo-v2:03623f67-1835-45f1-931b-787857517fd1-2023-09-12_10:11:22 --mail-list='siddeshwar.mali@krazybee.com,monisha.nethaji@krazybee.com'  --api-test-branch= --ui-test-branch=fe-pom-Modules  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=11
+
+
+
+
+//kbuatato25
+./env-manager daily-pipeline --env=kbuatauto --instance=25 --aws-profile=uatauto --backend-build-root=ebcf249d-5428-4bf7-a2f2-6e837253d054 --frontend-build-root=devops-full-fe-mono-repo-v2:5c4a1aec-0dad-416f-b793-16943744ac22-2023-09-01_07:24:45 --mail-list='siddeshwar.mali@krazybee.com,monisha.nethaji@krazybee.com'  --api-test-branch= --ui-test-branch=fe-pom-Modules  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=11
+
+
+
+
+kbuatauto19
+./env-manager daily-pipeline --env=kbuatauto --instance=19 --aws-profile=uatauto --backend-build-root=babe7ee1-492c-478f-b041-2930f4aa71cd  --frontend-build-root=devops-full-fe-mono-repo-v2:7070e216-6846-47a6-b602-18d48ebf4caa-2023-09-01_09:16:06  --mail-list='siddeshwar.mali@krazybee.com,monisha.nethaji@krazybee.com'  --api-test-branch= --ui-test-branch=fe-pom-Modules  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=11
+
+
+
+
+./env-manager daily-pipeline --env=kbuatauto --instance=17 --aws-profile=uatauto --backend-build-root=84ea5a7e-92c4-42ab-bfc2-64e97f22a3f0 --frontend-build-root=devops-full-fe-mono-repo-v2:5c4a1aec-0dad-416f-b793-16943744ac22-2023-09-01_07:24:45  --mail-list='siddeshwar.mali@krazybee.com,monisha.nethaji@krazybee.com'  --api-test-branch= --ui-test-branch=fe-pom-Modules  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=11
+
+
+
+
+
+loan2  --loan2rework
+website  --fe-web-suite
+rating-pvkyc --fb-td-KB-uat114
+
+
+
+
+./env-manager daily-pipeline --env=kbuatman1 --instance=9 --aws-profile=kbuatman --backend-build-root=6370e13e-e153-4e23-9b45-30586218b73e --frontend-build-root=devops-full-fe-mono-repo-v2:850e19aa-c48d-4cdc-ba09-4e75c51cc068-2024-02-14_06:50:50 --mail-list='sandhya.haveli@krazybee.com' --api-test-branch= --ui-test-branch=fe-pom-module-cy --no-dbclone  --codebuild-aws-account=stage --just-test --api-test=false --force --test-id=10
+
+
+./env-manager deploy --env=kbuatauto --instance=25 --backend-build-root=ff662060-5ac0-4fab-9993-9d3492129941 --frontend-build-root=devops-full-fe-mono-repo-v2:fd310cc7-41a4-49c4-9950-9a7a989ad02f-2024-08-08_14:06:55  --aws-profile=default
+
+//ENV Wakeup Command
+./env-manager wake --env=uat --instance=113 --aws-profile=uat
+
+
+./env-manager daily-pipeline --env=kbuatman2 --instance=17 --aws-profile=man2 --backend-build-root=4cd3155c-6141-4371-b590-8fbb2a831d2b  --frontend-build-root=devops-full-fe-mono-repo:b58831bd-5541-4c6c-91b1-a040bbe024df-2023-04-03_13:50:06  --mail-list='siddeshwar.mali@krazybee.com,monisha.nethaji@krazybee.com'  --api-test-branch= --ui-test-branch=fe-pom-Modules  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=9
+
+//kbuatman111
+./env-manager daily-pipeline --env=kbuatman1 --instance=4 --aws-profile=man --backend-build-root=8ad28221-ffed-4243-9844-45fab1c346fa  --frontend-build-root=devops-full-fe-mono-repo-v2:1f1aa97d-abc0-4c4e-9049-fcaa0472e09f-2023-08-31_22:37:38   --mail-list='siddeshwar.mali@krazybee.com,monisha.nethaji@krazybee.com'  --api-test-branch= --ui-test-branch=fe-pom-Modules  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=9
+
+
+#uat117
+
+./env-manager daily-pipeline --env=kbuatman2 --instance=22 --aws-profile=man2 --backend-build-root=e2f42b0c-6434-42b5-998f-cc9a91787e83 --frontend-build-root=devops-full-fe-mono-repo-v2:c12f6788-3763-43ba-b3e2-01bd6c542341-2024-01-22_07:32:04 --mail-list='komodheen.mastan@krazybee.com'  --api-test-branch= --ui-test-branch=fe-pom-module-cy  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=11
+
+
+R2303_ZohoChat RT1
+KB-26587: Top Up Loan Phase 1.5
+AD Phase3/4 fix build
+
+pending
+
+//uat119
+./env-manager daily-pipeline --env=uat --instance=122 --aws-profile=uat --backend-build-root=9f9bc872-de73-4eb6-823d-9f34f0585895 --frontend-build-root=devops-full-fe-mono-repo-v2:65e35a1f-c1a4-41ce-ad70-98d035e4fd70-2023-08-29_11:54:43  --mail-list='siddeshwar.mali@krazybee.com,monisha.nethaji@krazybee.com'  --api-test-branch= --ui-test-branch=fe-pom-Modules  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=9
+
+
+
+
+ insuranceBuyPolicyPage.enterDate('7')
+        insuranceBuyPolicyPage.enterMonth('Aug')
+        insuranceBuyPolicyPage.enterYear('1999')
+        insuranceBuyPolicyPage.enterAddressLine1input("BANGALORE")
+        insuranceBuyPolicyPage.enterAddressLine2input("H.A.L II STAGE")
+        insuranceBuyPolicyPage.enterPinCode("560008")
+        insuranceBuyPolicyPage.clickMaleRadioBtn()
+		
+		
+		
+		
+		 addInsuranceAddOnPage.enterAddressLine1input('Banglore')
+        addInsuranceAddOnPage.enterAddressLine2input('Banglore')
+        addInsuranceAddOnPage.enterPincodeinput('517305')
+        cy.wait(2000)
+
+
+
+
+//kbuatman18
+./env-manager daily-pipeline --env=kbuatman1 --instance=8 --aws-profile=man --backend-build-root=ed89df96-ba34-45dc-829d-5d6810d33822  --frontend-build-root=devops-full-fe-mono-repo-v2:d3fd1ba1-54e2-47a3-aa8e-4dc9b47bc59e-2023-08-31_13:10:46   --mail-list='siddeshwar.mali@krazybee.com,monisha.nethaji@krazybee.com'  --api-test-branch= --ui-test-branch=fe-pom-Modules  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=11
+
+
+
+//kbuatman122
+./env-manager daily-pipeline --env=kbuatman1 --instance=22 --aws-profile=man  --backend-build-root=9591301c-25a9-4533-bc86-e5c4036d4ae8  --frontend-build-root=devops-full-fe-mono-repo-v2:a40aca46-1902-421f-9f22-e9e3e69ecd92-2023-09-04_07:43:05 --mail-list='siddeshwar.mali@krazybee.com,monisha.nethaji@krazybee.com'  --api-test-branch= --ui-test-branch=fe-pom-Modules  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=11
+
+
+
+//uatre4
+./env-manager daily-pipeline --env=uatre --instance=4 --aws-profile=uat --backend-build-root=bbb5222b-cc77-41fa-86a7-07f164b110a3  --frontend-build-root=devops-full-fe-mono-repo-v2:27d963e0-fc62-4d87-affa-74ec1c636278-2023-09-01_07:23:48  --mail-list='siddeshwar.mali@krazybee.com,monisha.nethaji@krazybee.com'  --api-test-branch= --ui-test-branch=fe-pom-Modules  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=11
+
+
+loan2 11,20
+website
+reapyment-PD 13,22
+
+
+
+
+
+//uat110
+./env-manager daily-pipeline --env=uat --instance=110  --aws-profile=uat --backend-build-root=88f0bd87-c381-43af-bf3c-b6e022535849 --frontend-build-root=devops-full-fe-mono-repo-v2:144340b4-1b50-4830-8d01-8683d8b72dd1-2023-08-10_13:36:11  --mail-list='siddeshwar.mali@krazybee.com,monisha.nethaji@krazybee.com'  --api-test-branch= --ui-test-branch=fe-pom-Modules  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=11
+
+
+
+
+./env-manager daily-pipeline --env=kbuatauto  --instance=17  --aws-profile=uatauto --backend-build-root=d8bff596-3236-4672-9eaa-5a7580cf4302  --frontend-build-root=devops-full-fe-mono-repo:dc79af59-e6f2-4b25-9dfb-7378d6926d04-2023-06-21_13:10:52 --mail-list='siddeshwar.mali@krazybee.com,monisha.nethaji@krazybee.com'  --api-test-branch= --ui-test-branch=fe-pom-Modules  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=11
+
+
+ accountsPage.clickVideoKYCLabel()
+        accountsPage.clickContinueBtn()
+
+
+
+TestID	Result
+1) KB-T55778 (1.0) Ensure Online banner is not shown in checkout product info screen when it is disabled in yp_checkout_merchants where checkout CTA = Activate Now	pass
+1) KB-T21493 Check Loan disbursal is happening for MLA20k product	pass
+1) KB-T49331 Verify the KPS and Sanction Doc for Incred Fund when loan is sanctioned by Incred Fund	pass
+1) KB-T21751 (1.0) Check on clicking Login and Logout	pass
+2) KB-T59848 Checking whether the Sanction doc and LFA loading for KB fund if the users those came through "api_airtelpb" for the SA loan.	pass
+3) KB-T59844 Checking whether the Sanction doc and LFA and Sanction doc is loading for KB fund if the users those came through "api_airtelpb".	pass
+
+
+
+
+
+//kbuatman218
+./env-manager daily-pipeline --env=kbuatman2 --instance=18 --aws-profile=man2 --backend-build-root=57e46a04-cf1a-49a4-a8d9-8ef1fe9fed69  --frontend-build-root=devops-full-fe-mono-repo-v2:7d1fc92c-ed03-494d-a187-f04fab83ed6a-2023-09-07_10:33:38  --mail-list='siddeshwar.mali@krazybee.com,monisha.nethaji@krazybee.com'  --api-test-branch= --ui-test-branch=fe-pom-Modules  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=11
+
+
+
+
+
+//uat104
+
+./env-manager daily-pipeline --env=uat --instance=124 --aws-profile=uat --backend-build-root=e4cfecf0-71a8-473c-8fbc-12f36d811727 --frontend-build-root=devops-full-fe-mono-repo-v2:94206dca-2860-4b0d-a572-0cf7b82e3784-2023-08-07_11:32:51  --mail-list='siddeshwar.mali@krazybee.com,monisha.nethaji@krazybee.com'  --api-test-branch= --ui-test-branch=fe-pom-Modules  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=9
+
+
+
+
+
+
+//uat124
+./env-manager daily-pipeline --env=uat --instance=129 --aws-profile=uat --backend-build-root=f09c9809-f121-48b1-b067-52ab1260721a --frontend-build-root=devops-full-fe-mono-repo-v2:9ee97640-4179-4585-9550-6161866a86a3-2023-08-14_07:48:08  --mail-list='siddeshwar.mali@krazybee.com,monisha.nethaji@krazybee.com'  --api-test-branch= --ui-test-branch=fe-pom-Modules  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=11
+
+
+
+
+
+
+
+./env-manager daily-pipeline --env=uat --instance=129 --aws-profile=uat --backend-build-root=f09c9809-f121-48b1-b067-52ab1260721a --frontend-build-root=devops-full-fe-mono-repo-v2:9ee97640-4179-4585-9550-6161866a86a3-2023-08-14_07:48:08--mail-list='siddeshwar.mali@krazybee.com,monisha.nethaji@krazybee.com' --api-test-branch= --ui-test-branch=fe-pom-Modules --no-dbclone --codebuild-aws-account=stage --just-test --api-test=false --force --test-id=6
+
+
+
+
+
+
+
+
+./env-manager daily-pipeline --env=uatre --instance=4 --aws-profile=uat --backend-build-root=bdd10e24-0198-4191-a891-23abfbb28ef8   --frontend-build-root=devops-full-fe-mono-repo-v2:6509e270-7856-4236-a50d-bed01169c33a-2023-08-05_08:21:17 --mail-list='siddeshwar.mali@krazybee.com,monisha.nethaji@krazybee.com' --api-test-branch= --ui-test-branch=fe-pom-Modules  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=11
+
+
+101446407219
+
+13,22
+api gateway
+
+//env wakeup  1373 dish recharge
+
+'KB-T41420,
+
+--
+
+
+describe('fbevents', function () {
+    it('Fbevents', function () {
+
+        cy.visitURL('/newhome')
+        cy.wait(2000)
+        cy.Firebaseevents().then(consoleLog => {
+            const args = consoleLog.args;
+            expect(args[0][0]).to.equal('FB Events: ');
+            const eventData = JSON.parse(args[0][1]);
+            expect(eventData.actionTriggered).to.exist;
+            expect(eventData.action).to.exist;
+            expect(eventData.label).to.exist;
+            expect(eventData.customerId).to.exist;
+            // expect(eventData.actionTriggered).to.equal('register_page_loadcomplete');
+        });
+    })
+});
+
+komodheen.mastan@krazybee.com
+jaiganesh.g@kreditbee.in
+roja.t@krazybee.com
+sandhya.haveli@kreditbee.in
+madhavi.latha@krazybee.com
+
+https://ap-south-1.console.aws.amazon.com/codesuite/codecommit/repositories/kbyp-pom-automation/pull-requests/754/details?region=ap-south-1
+
+
+./env-manager wake --env=kbuatman2 --instance=7 --aws-profile=man2
+
+./env-manager wake --env=uat --instance=113 --aws-profile=uat
+
+./env-manager wake --env=kbuatauto --instance=25 --aws-profile=default
+
+//destroying envs0.0
+./env-manager destroy --env=kbuatauto --instance=14 --aws-profile=default
+
+//bringup envs
+	--backend-build-root=ff662060-5ac0-4fab-9993-9d3492129941 
+./env-manager up --env=kbuatauto --instance=14 --frontend-build-root=devops-full-fe-mono-repo-v2:541fcf24-42a6-4f91-9fb2-c57f4a755397-2024-08-18_19:33:45 --backend-build-root=fa9b9b9f-eed8-451c-810e-b8b9cd5bad92  --aws-profile=default
+
+./env-manager up --env=kbuatauto --instance=25 --frontend-build-root=devops-full-fe-mono-repo-v2:3193d217-803f-4d2d-9ed1-10384446f2a8-2024-08-08_06:55:18 --backend-build-root=ff662060-5ac0-4fab-9993-9d3492129941   --aws-profile=default
+
+UPDATE yp.yp_loan_product SET AprCap = '500' WHERE (id > '0'); ----automatically coupon code apply disabled
+
+Total test cases modules=account-Bank,loan2,Repayment-PD,web-suite
+1=1324 
+2=3972
+3=3972
+4=5296
+5=6620
+6=7944
+7=9268
+
+
+Fail	Address Field newly got added and Customer Information String not Displaying in Buy Policy Page
+
+Address Field newly got added and Customer Information String not Displaying in Buy Policy Page
+loan2
+
+Total test cases	Total faild	Rerun pass	Failed
+198	9	9	0
+--
+Total test cases	Total faild	Rerun pass	Failed	
+108	3	3	0	
+
+./env-manager up --env=kbuatauto --instance=2  --backend-build-root=0c56c320-ec3c-48f6-ac3a-7376e5554b27 --frontend-build-root=devops-full-fe-mono-repo-v2:6a4d44b2-8313-48e5-b5d7-2dd67d8535c2-2024-07-16_21:03:21  --aws-profile=default
+
+//deployee
+./env-manager deploy --env=kbuatauto --instance=2 --backend-build-root=11b3a8ad-70f7-4935-9a8a-cf4370475dbf --frontend-build-root=devops-full-fe-mono-repo-v2:e75a756a-d348-425b-a85d-2c14a6d27da6-2024-07-01_21:03:01 --aws-profile=default --selective
+
+apis -->click 
+env name search devops-mono-api-test
+create-create-c
+
+npx cypress run --headed --browser electron  --spec "cypress/e2e/sanity-tests/Repayment-PD/**/"
+
+npx cypress run --headless --browser chrome 'cypress/integration/BusinessApp/UAT-BUSINESS-CASES.Spec.js'
+
+
+npx cypress run --headless --browser chrome  --spec "cypress/e2e/sanity-tests/Insurance/**/*"
+
+npx cypress run --headless --browser chrome  --spec "cypress/e2e/sanity-tests/Ratings-Pvkyc/**/*"
+
+npx cypress run  --headed  --browser electron  --spec 'cypress/e2e/sanity-tests/Loan2/**/*'
+
+npx cypress run --headless --browser electron --spec "cypress/e2e/web-tests/**"
+
+npx cypress run  --headless  --browser electron  --spec 'cypress/e2e/sanity-tests/ED-Coupon-Code/**/*'
+
+npx cypress run  --headed  --browser electron  --spec 'cypress/e2e/sanity-tests/Account-Bank/**/*'
+
+
+#fixture start date change 
+
+alter table yp_user_lap_lead
+add column Ans10 varchar(100) default null,
+add column Ans11 varchar(100) default null,
+add column Ans12 varchar(100) default null,
+add column Ans13 varchar(100) default null,
+add column Ans14 varchar(100) default null,
+add column Ans15 varchar(100) default null;
+
+
+ALTER TABLE `yp`.`yp_adhoc_cashback_transaction` 
+ADD COLUMN `csvDataReason` INT NULL DEFAULT NULL;
+ALTER TABLE `yp`.`yp_redeem_points` 
+ADD COLUMN `reason` INT NULL DEFAULT NULL;
+
+
+myPoliciesPage-CancelPolicy.json
+myPoliciesPage-RaiseClaim.json
+myPoliciesPage-CancelPolicy-ACHO.json
+myPoliciesPage-ICICI-CancelPolicy.json
+myPolicyPage-Religare-CancelPolicy.json
+myPoliciesPage-RaiseCliam.json
+10.105.60.127
+
+//Bank NACH Mandiate
+select * from yp_loan_product;
+select * from yp_upi_mandate_configs;#force  1000
+select * from yp_band_properties;
+select * from yp_user_points_transaction;
+select * from yp_config;
+select * from yp_user_otp;
+select * from yp_user_bank;
+
+select * from yp_enach_ifsc_configs;
+select * from yp_user_otp;
+
+Failed due to UI Got changed and Response was added in Help Page
+After clicking View Details Reload Page comming
+
+
+loan
+10,19
+insurence
+9, 18
+rating-pvkyc
+12,21
+
+
+reapyment pd
+13,22
+loan2
+11,20
+
+/category?name=fplfalse
+
+**/category-main?name=fplfalse
+
+./env-manager daily-pipeline --env=kbuatman1 --instance=11 --aws-profile=man --backend-build-root=a07c5c84-3e42-4c4f-9af5-906970e8274d --frontend-build-root=devops-full-fe-mono-repo:2cf25377-4b3d-4294-9475-9bfc9b279816-2023-06-09_11:19:39  --mail-list='siddeshwar.mali@krazybee.com,monisha.nethaji@krazybee.com'  --api-test-branch= --ui-test-branch=fb-td-KB-uat114  --no-dbclone  --codebuild-aws-account=stage  --just-test --api-test=false  --force --test-id=9
+
+
+./env-manager up --env=kbuatauto --instance=19 --backend-build-root=d2861675-5e09-4700-b47c-b6408cb9f1b9 --frontend-build-root=devops-full-fe-mono-repo-v2:e8096fa0-0df3-46ae-9f9b-d723f4347db1-2023-08-24_12:52:40 --aws-profile=uatauto
+
+
+
+./env-manager up --env=kbuatauto --instance=17 --backend-build-root=36292678-e56f-42c7-8a51-1e777f340347  --frontend-build-root=devops-full-fe-mono-repo-v2:03623f67-1835-45f1-931b-787857517fd1-2023-09-12_10:11:22  --aws-profile=uatauto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		  
+		  "services": {
+            "creditScore": true,    
+                "insurance": true, 
+                "referal": true,    
+                "gold": true,   
+                "expenseManager": false,    
+                "healthcare": { 
+                    "enabled": 0,   
+                    "redirect": "home", 
+                    "insMyAccount": true    
+                }
+          },
+		  
+		  
+		  **/tnc/pd_gstdetails
+		  **/tnc/pd_gstDetailsVerification
+		  
+		  
+		  
+		  "model":  {
+		"fplBlock2": {
+			"action": "locked",
+			"maxAmount": 50000,
+			"tenure": 7
+		},
+		
+		"checkoutOTP": {
+            "isOTPInAppEnabled": false,
+            "loanAmount": 0
+        }
+
+		
+		appium --platform-name Android --platform-version 11.0 --device-name oppof15 --appPackage com.kreditbee.android.stage --appActivity com.kreditbee.android.splash.SplashActivity
+
+		
+g	
+		
+		
+		
+		postman realted test cases do this way
+describe('postman related test case',()=>{
+    it('this trial',()=>{
+        var myHeaders = new Headers();
+myHeaders.append("Content-Type", "application/json");
+
+var raw = JSON.stringify({
+  "type": "extraDetailsLoan",
+  "code": "200",
+  "model": {
+    "cid": "81183789",
+    "requestId": "2962318",
+    "offer": "nameMismatch",
+    "triggerSource": "loan",
+    "status": "reject",
+    "errorCode": "ERR01",
+    "pdOfferDisable": "0",
+    "ad_rules_manual": ""
+  }
+});
+
+var requestOptions = {
+  method: 'POST',
+  headers: myHeaders,
+  body: raw,
+  redirect: 'follow'
+};
+
+fetch("https://kbuatauto2api.kreditbee.dev/main/indications/recb", requestOptions)
+  .then(response => response.text())
+  .then(result => cy.log(result))
+  .catch(error => cy.log('error', error));
+    })
+})
+
+
+UPDATE `yp`.`yp_config` SET `value` = '0' WHERE (`id` = '5544');
+'5544', 'healthcare', 'isEnabled', '0', 'global config (0 = disabled, 1 = enabled for all, 2 = enabled only for test users)', '1', '2023-06-23 06:41:25', '2023-06-27 11:56:51', '1'
+
+
+
+ser error page will dispaly
+
+
+{
+	"code": "458",
+	"msg": "Error! Could not send OTP, please try again later",
+	"model": {
+		"id": "3600228",
+		"otpDigits": "6",
+		"token": "yvcrgy1szsdxqcjmf5fvuyubq6f6v8dc"
+	}
+}
+
+
+
+  it('',()=>{
+        cy.intercept('**/home', { fixture: '/home/homePage-8k.json' })
+        cy.intercept('**/creditreport',{fixture:'creditScoreReport/CSR-WaitingPage.json'})
+    })
+	
+	
+	
+	ALTER TABLE yp_user_lap_lead ADD COLUMN enableDisbursal tinyint default 0; 
+	--please run this query if the env is not working.
+	
+INSERT INTO yp.yp_config (configType, key, value, editFlag, enable) VALUES ('user/onboarding', 'skipAppTypeCheckAtEligibility', '0', '1', '1');
+
+
+
+
+
+UPDATE yp.yp_config SET value = '0' WHERE (id = '5544');
+
+UPDATE yp.yp_config SET value = '1' WHERE (id = '5544');
+
+'5544', 'healthcare', 'isEnabled', '1', 'global config (0 = disabled, 1 = enabled for all, 2 = enabled only for test users)', '1', '2023-06-23 06:41:25', '2023-06-27 11:56:51', '1'
+
+
+
+
+
+
+
+    //pending test case due to points not coming 
+    // it('KB-T48581 (1.0) Verify Kreditbee points displayed in PD offer, reupload KYC docs when user onboards through the other than eKYC', () => {
+    //     cy.intercept('**/home', { fixture: 'home/homePage-pd.json' })
+    //     cy.intercept('**/me/pd?type=list', { fixture: 'pd/pdBusinessDetails.json' })
+    //     // cy.intercept('**/me?type=thumbnail', { fixture: '/onBoarding/profile/KYCEnablePoints.json' })
+    //     cy.intercept('**/me?type=thumbnail', { fixture: 'onBoarding/profile/kycDocumentsPage-upload.json' })
+
+
+    //     cy.visitURL('/newhome')
+    //     homePage.clickCreditLimitAndDiscountText()
+    //     pdPage.verifyReuploadKYCLabel('Reupload KYC Documents')
+    //     pdPage.clickReuploadKYCLabel()
+    //     reuploadKYCInfoPage.verifyPageTitle('Reupload KYC Documents')
+    //     reuploadKYCInfoPage.clickContinueButton()
+    //     addressProofPage.verifyPageTitle('Upload Address proof')
+    //     // addressProofPage.verifyAdhaarEKYCLabel('Aadhaar E-KYC  ')
+    //     cy.get('span', { timeout: 5000 }).should('be.visible').then(($a) => {
+    //         if ($a.text().includes('Aadhaar E-KYC')) {
+    //             cy.log('Aadhaar E-KYC is Enabled')
+    //         }
+    //         else {
+    //             cy.log('Aadhaar E-KYC is Disabled')
+    //         }
+    //     })
+    // })
+	
+	
+	
+	
+	   "payment": {
+                    "GstPerc": "18",
+                    "amount": "11810",
+                    "feeAmoun
+					
+					What is SEO?
+SEO stands for Search Engine Optimization.Have your ever heard  a business exciteadly execution that they are on the first page of Google
